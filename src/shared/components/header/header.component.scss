@@ -1,0 +1,22 @@
+header{
+
+    nav{
+        .navbar-nav{
+
+           a:not(:last-child){
+            font-size: 1.2rem;
+                color: #9FA7B2;
+                &:hover{
+                    color:#37C0EE ;
+                }
+           }
+           .nav-btnn{
+            background-image: linear-gradient(#429DE5, #18B7E8);
+            box-shadow: 0px 5px 8px #18B7E872;
+            color: white;
+           }
+        }
+    }
+    
+}
+
