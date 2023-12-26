@@ -5,24 +5,65 @@
     box-sizing: border-box;
 }
 $base-font-size:1em;
-$font-fade:#333333;
-$font-dark:#414141;
-
+$f-fade:#333333;
+$f-dark:#414141;
+$f-primary:#24B5E2;
 @font-face {
     font-family:'Poppins-Medium';
     src: url('./assets/Fonts/Poppins-1/Poppins-Medium.ttf');
 }
+@font-face {
+    font-family:'poppins-Bold';
+    src: url("./assets/Fonts/Poppins-1/Poppins-Bold.ttf");
+}
+@font-face {
+    font-family:'poppins-extrabold';
+    src: url("./assets/Fonts/Poppins-1/Poppins-ExtraBold.ttf");
+}
+@font-face {
+    font-family:'poppins-semibold';
+    src: url('./assets/Fonts/Poppins-1/Poppins-SemiBold.ttf');
+}   
+@font-face {
+    font-family:'poppins-italic';
+    src: url("./assets/Fonts/Poppins-1/Poppins-Italic.ttf");
+}
+@font-face {
+    font-family:'Poppins-Light';
+    src: url("./assets/Fonts/Poppins-1/Poppins-Light.ttf");
+}
 
-.Poppins-Medium{
+.poppins-medium{
     font-family:'Poppins-Medium';
 }
+.poppins-semibold{
+    font-family:'poppins-semibold';
+}
+.poppins-bold{
+    font-family:'poppins-Bold';
+}
+.poppins-extrbold{
+    font-family:'poppins-extrabold';
+}
+.poppins-italic{
+    font-family:'poppins-italic';
+}
+.poppins-light{
+    font-family:'Poppins-Light';
+}
+
 .banner-grad{
  background:linear-gradient(to right,#13223A,#204E9A);   
  opacity: 1;
  border: 1px solid #707070;
+ border-radius: 0px 0px 0px 250px;
+ 
 }
 .banner-right{
     color: #429DE5;
+}
+.f-primary{
+    color: $f-primary;
 }
 .vbslogo{
     width: 10.2em;
@@ -31,11 +72,10 @@ $font-dark:#414141;
 .resp-image{
     width: 100%;
     height:100%;
-    object-fit: contain;
+    object-fit: cover;
 }
 .banner-head{
-    font-size: 3.875em;
-    font-family:"extra bold";
+    font-size: 3em;
 }
 
 .banner-par{
@@ -56,9 +96,9 @@ $font-dark:#414141;
 .pre-head{
   font-size: 1.5em;
 }
+
 .par1{
-    font-size:1em;
-   
+    font-size:1em;   
 }
 .par2{
     font-size:0.9em ;
@@ -72,4 +112,21 @@ $font-dark:#414141;
 .esml-font{
  font-size:0.6em;
 }
+.my-btn{
+    background: linear-gradient(to right,#25BCEA,#208FB1);
+    font-size: 1em;
+    font-family:'poppins-semibold';
+    color: #FFFFFF;
+    border: none;
+    box-shadow: 0px 5px 8px #18B7E872; 
+    border-radius: 28px;
+    opacity: 1;
+    padding: 11px 25px;     
+}
+// @media screen  {
+    
+// }
+// .banner-curtain{
+//   object-fit: contain;
 
+// }
