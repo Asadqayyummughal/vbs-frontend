@@ -32,7 +32,14 @@ $f-primary:#24B5E2;
     font-family:'Poppins-Light';
     src: url("./assets/Fonts/Poppins-1/Poppins-Light.ttf");
 }
+@font-face {
+    font-family:'poppins-regular';
+    src: url('./assets/Fonts/Poppins-1/Poppins-Regular.ttf');
+}
+.poppins-regular{
+    font-family:'poppins-regular';
 
+}
 .poppins-medium{
     font-family:'Poppins-Medium';
 }
@@ -59,7 +66,7 @@ $f-primary:#24B5E2;
  border-radius: 0px 0px 0px 250px;
  
 }
-.banner-right{
+.primary-bg{
     color: #429DE5;
 }
 .f-primary{
@@ -79,16 +86,19 @@ $f-primary:#24B5E2;
 }
 
 .banner-par{
-    font-size: 1.125em;
+    font-size: 1em;
 }
 .head1{
-    font-size: 3.25em;    
+    font-size: 3em;    
     font-family: "poppins-bold";
 }
 .head2{
+    font-size: 2em;
+    
+}
+.head3{
     font-size:1.4375em;
     font-family:"popsemibold";
-
 }
 .navtxt{
     font-size:1.4em;
