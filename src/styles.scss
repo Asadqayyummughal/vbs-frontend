@@ -4,10 +4,14 @@
     padding: 0px;
     box-sizing: border-box;
 }
+body{
+    background: linear-gradient(to right,#FFFFFF,#F6F6F6);
+}
 $base-font-size:1em;
 $f-fade:#333333;
 $f-dark:#414141;
 $f-primary:#24B5E2;
+
 @font-face {
     font-family:'Poppins-Medium';
     src: url('./assets/Fonts/Poppins-1/Poppins-Medium.ttf');
@@ -36,6 +40,10 @@ $f-primary:#24B5E2;
     font-family:'poppins-regular';
     src: url('./assets/Fonts/Poppins-1/Poppins-Regular.ttf');
 }
+@font-face {
+    font-family:'Raleway-ExtraBold';
+    src: url('./assets/Fonts/Poppins-1/Raleway-ExtraBold.ttf');
+}
 .poppins-regular{
     font-family:'poppins-regular';
 
@@ -48,6 +56,7 @@ $f-primary:#24B5E2;
 }
 .poppins-bold{
     font-family:'poppins-Bold';
+    
 }
 .poppins-extrbold{
     font-family:'poppins-extrabold';
@@ -58,7 +67,9 @@ $f-primary:#24B5E2;
 .poppins-light{
     font-family:'Poppins-Light';
 }
-
+.raleway-extrabold{
+    font-family:'Raleway-ExtraBold';
+}
 .banner-grad{
  background:linear-gradient(to right,#13223A,#204E9A);   
  opacity: 1;
@@ -79,7 +90,10 @@ $f-primary:#24B5E2;
 .resp-image{
     width: 100%;
     height:100%;
-    object-fit: cover;
+    object-fit:contain;
+}
+.navtxt{
+    font-size:1.4em;
 }
 .banner-head{
     font-size: 3em;
@@ -89,24 +103,18 @@ $f-primary:#24B5E2;
     font-size: 1em;
 }
 .head1{
-    font-size: 3em;    
-    font-family: "poppins-bold";
+    font-size:3em;    
+    font-family: "poppins-bold";  
 }
 .head2{
     font-size: 2em;
-    
 }
 .head3{
-    font-size:1.4375em;
-    font-family:"popsemibold";
-}
-.navtxt{
-    font-size:1.4em;
+    font-size:1.4;
 }
 .pre-head{
   font-size: 1.5em;
 }
-
 .par1{
     font-size:1em;   
 }
@@ -133,10 +141,44 @@ $f-primary:#24B5E2;
     opacity: 1;
     padding: 11px 25px;     
 }
-// @media screen  {
-    
-// }
-// .banner-curtain{
-//   object-fit: contain;
 
-// }
+.sml-crd{
+    border-radius: 30px;
+    box-shadow: 0 1px 9px rgb(172, 172, 167)
+}
+.med-crd{
+    box-shadow: 1px 11px 28px #1946A129;
+    border-radius: 32px;
+    
+}
+.lrg-crd{
+box-shadow: 0px 16px 20px #6B6B6B29;
+border-radius: 24px;
+}
+.dim-color{
+    color: black;
+    opacity: 80%;
+}
+.icon-dimension1{
+    width: 65px;
+    height: 65px; 
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center  ;
+
+}
+
+.icon-dimension2{
+    width: 40px; 
+    height: 40px; 
+}
+
+
+@media screen and (max-width:576px) {
+    .head2{
+        font-size: 1.5em;
+    }
+
+    
+}

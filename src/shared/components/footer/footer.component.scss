@@ -33,5 +33,42 @@ footer{
             }
         }
     }
-  
+    .main-footer{
+    background-color: #141414;
+    p,ul>li>a{
+     opacity: 80%;   
+    }
+    color: white;
+    }
+    ul{
+         padding: 0px;
+         list-style: none;
+        li{
+            padding:8px 0px;
+            a{
+                text-decoration: none;
+                color: white;
+                opacity: 80%;
+                font-family:'Poppins-Medium';
+                font-size: 14px;
+               
+            }
+        }
+    }
+    .copy-right-row{
+        color: #999999;
+        background: #383838 0% 0% no-repeat padding-box;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .par2{
+        font-size: 0.6em
+    }
+    
+}
+@media screen and (max-width:992px) {
+    .par2{
+      font-size: 0.75em   
+    }
 }
