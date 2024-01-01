@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="138.891" height="138.891" viewBox="0 0 138.891 138.891">
+  <defs>
+    <filter id="Icon_material-play-circle-filled" x="10.377" y="10.377" width="118.137" height="118.137" filterUnits="userSpaceOnUse">
+      <feOffset dy="6" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feFlood flood-opacity="0.38"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Icon_material-play-circle-filled-2" x="0" y="0" width="138.891" height="138.891" filterUnits="userSpaceOnUse">
+      <feOffset dy="6" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur-2"/>
+      <feFlood flood-opacity="0.38"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_26556" data-name="Group 26556" transform="translate(-1375.75 -2379.75)">
+    <g transform="matrix(1, 0, 0, 1, 1375.75, 2379.75)" filter="url(#Icon_material-play-circle-filled)">
+      <path id="Icon_material-play-circle-filled-3" data-name="Icon material-play-circle-filled" d="M46.818,3A43.818,43.818,0,1,0,90.637,46.818,43.834,43.834,0,0,0,46.818,3ZM38.055,66.537V27.1L64.346,46.818Z" transform="translate(22.63 16.63)" fill="#fff" stroke="#fff" stroke-width="0.5"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 1375.75, 2379.75)" filter="url(#Icon_material-play-circle-filled-2)">
+      <path id="Icon_material-play-circle-filled-4" data-name="Icon material-play-circle-filled" d="M57.2,3a54.2,54.2,0,1,0,54.2,54.2A54.215,54.215,0,0,0,57.2,3ZM46.356,81.583V32.807L78.873,57.2Z" transform="translate(12.25 6.25)" fill="none" stroke="#fff" stroke-width="0.5"/>
+    </g>
+  </g>
+</svg>

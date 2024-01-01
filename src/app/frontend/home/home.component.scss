@@ -26,6 +26,7 @@
 .medical-billing-sec{
     .servicess-cards{
         .service-crd{
+            position: relative;
             z-index: 5;
             overflow: hidden;
             transition: transform 0.3s cubic-bezier(0.68, -0.55, 0.27, 1.55);
@@ -42,8 +43,7 @@
             
             }
         }
-        position: relative;
-        z-index:0;
+    
         &:after{
             position: absolute;
             content: "";
@@ -91,8 +91,11 @@
     } 
 }
 .lab-sec{
-    background: linear-gradient(to right,#3F9BE4,#86C8FE );
-    // opacity:50%;
+    
+    .top-sec{
+        background: linear-gradient(to right,#3F9BE4,#86C8FE );
+    }
+  
 }
 
 .effeciency-sec{
@@ -113,6 +116,7 @@
     }
     .topsec{
         position: relative;
+       
         &:before{
             position: absolute;
             top: 0px;
@@ -152,7 +156,45 @@
     
 }
 
+.lab-sec{
+    .top-sec{
+        .video-icon{
+            width: 100px;
+            height: 115px;
+            object-fit: contain;
+            position: absolute;
+            top: 15%;
+            left: 25%;
+            transform: translate(50%, 50%);
+        }
+    }
+    ul{
+        li{
+            span{
+                width: 80px;
+                height: 80px;
+                
+                
+                p{
+                position: absolute;
+                 top: 43%;
+                 left: 50%;
+                 transform: translate(-50%, -50%);
 
+
+                }
+            }
+            
+        }
+        li:nth-child(2),li:nth-child(3){
+            padding-left:10px;
+            
+        }
+      
+        
+    }
+
+}
 
 
 
