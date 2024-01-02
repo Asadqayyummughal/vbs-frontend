@@ -90,13 +90,6 @@
     }
     } 
 }
-.lab-sec{
-    
-    .top-sec{
-        background: linear-gradient(to right,#3F9BE4,#86C8FE );
-    }
-  
-}
 
 .effeciency-sec{
     .meeting-img{
@@ -116,7 +109,6 @@
     }
     .topsec{
         position: relative;
-       
         &:before{
             position: absolute;
             top: 0px;
@@ -127,10 +119,9 @@
             width: 50%;
             z-index: -1;
         }
-
-    }
-        
+    }   
     .bottom-sec{
+        
         position: relative;
         &:before{
             position: absolute;
@@ -158,6 +149,7 @@
 
 .lab-sec{
     .top-sec{
+        background: linear-gradient(to right,#3F9BE4,#86C8FE );
         .video-icon{
             width: 100px;
             height: 115px;
@@ -167,6 +159,9 @@
             left: 25%;
             transform: translate(50%, 50%);
         }
+    }
+    .bottom-sec{
+        box-shadow: 0px 37px 81px #B1B1B129 ;
     }
     ul{
         li{
@@ -179,9 +174,7 @@
                 position: absolute;
                  top: 43%;
                  left: 50%;
-                 transform: translate(-50%, -50%);
-
-
+                 transform: translate(-50%,-50%);
                 }
             }
             
@@ -195,7 +188,85 @@
     }
 
 }
+.latest-in-halth-care{
+    .top-row{
+        
+        p{
+            color: #565656;
+        }
+        
 
+    }
+    .bottom-row{
+        .med-crd{
+            .crd-image{
+                position: relative;
+                img{
+                    border-radius: 24px 24px 0px 0px;
+                    position: relative;
+                    
+                }
+                &:after{
+                    position: absolute;
+                    width: 100%;
+                    height: 100%;
+                    content:"";
+                    top: 0px;
+                    bottom: 0px;
+                    left: 0px;
+                    background: black;
+                    opacity:35%;
+                    border-radius: 24px 24px 0px 0px;
+                }
+                
+
+            }
+
+        }
+        
+
+    }
+}
+.testmonial-sec{
+    .main-sec{
+        position: relative;
+        background: transparent linear-gradient(297deg, #204E9A 0%, #13223A 100%) 0% 0% no-repeat padding-box;
+        .top-head{
+        position: relative;
+        
+      }
+      .fade-circle{
+        position: absolute;
+        top: -23px;
+        left: -29px;
+        z-index: 0;
+        background: #FFFFFF 0% 0% no-repeat padding-box;
+        border: 1px solid #707070;
+        opacity: 0.1;
+      }
+    }
+    .testimonial-crds-rapper{
+        // transform: translateX(-20%);
+        .testimonial-crd{
+            // color: #208FB1;
+            color: white;
+            background: #24B6E2 0% 0% no-repeat padding-box;
+            box-shadow: 8px 30px 45px #1F1F1F45;
+            border-radius: 28px;
+            opacity: 1;
+            p{
+                max-width: 30ch;
+            }
+            
+       
+         }
+
+    }
+    
+
+
+    
+}
 
 
 //media Quries start

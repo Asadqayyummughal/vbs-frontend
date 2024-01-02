@@ -14,10 +14,7 @@ export class HomeComponent implements AfterViewInit {
     counters.forEach(function(counter:any) {
     var delay = 10;  
     var time = 2000;
-    console.log('get called:::::');
     var target = parseInt(counter.getAttribute('data-target')); 
-    console.log('target:::',target);
-    
     var increment = target / (time / delay);
     var current = 0;
     var counterInterval = setInterval(function() {
@@ -26,16 +23,7 @@ export class HomeComponent implements AfterViewInit {
    if (current >= target) 
    {
      clearInterval(counterInterval);
-     if(target==500){
-       counter.textContent = target + "+";
-     }
-     else if(target==25){
-       counter.textContent = target + "+"+"K";
-     }
-     else{
-       counter.textContent = target + "K";
-     }
-     
+     counter.textContent = target + "+";
    }
  }, delay);
  });
