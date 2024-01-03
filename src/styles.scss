@@ -56,7 +56,13 @@ $f-primary:#24B5E2;
     color: #429DE5;
 }
 .f-med-dark{
-    color:#333333;
+    color:#333333; 
+}
+.servs-head-color{
+    color: #414143;
+}
+.gray-fnt{
+   color:#707070
 }
 .orng-fnt{
     color: #FDBC64;
@@ -160,6 +166,9 @@ $f-primary:#24B5E2;
 }
 .esml-font{
  font-size:0.6em;
+}
+.border-top-right{
+    border-radius: 0px 30px 0px 0px;
 }
 .my-btn{
     background: linear-gradient(to right,#25BCEA,#208FB1);
