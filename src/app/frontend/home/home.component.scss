@@ -3,7 +3,7 @@
     &:before{
        position:absolute;
        top:0px;
-       left:198px;
+      left:198px;
        bottom: 0px; 
        width: 90%;
        background:linear-gradient(to right,#13223A,#204E9A);   
@@ -135,14 +135,6 @@
             width: 50%;
             z-index: -1;
         }
-        .right-side{
-           
-            
-
-        }
-
-        
-
     }
     
 }
@@ -428,44 +420,7 @@
         }
     }
 }
-@media screen and (max-width:768px) {
-    .effeciency-sec{
-        .topsec{
-            position: relative;
-            p{
-                color: white;
-            }
-            &:before{
-                width: 100%;
-            }
-    
-        }
-        .bottom-sec{
-            position: relative;
-            &:before{  
-                height: 100%;
-                width: 100%; 
-            }
-        }
-        
-    }
 
-        .medical-billing-sec{
-            .servicess-cards{
-                &:after{
-                    width: 110%;
-                    height: 100%;
-                    overflow-x: hidden;
-                    left: -28px;
-                  
-                
-                }
-            }
-        }
-    
-
-    
-}
 
 @media screen and (min-width:769px ) and (max-width:1200px ) {
 
@@ -479,6 +434,48 @@
             }
         }
     }
+}
+@media screen and (max-width:768px) {
+    .effeciency-sec {
+        .topsec {
+            position: relative;
+
+            p {
+                color: white;
+            }
+
+            &:before {
+                width: 100%;
+            }
+
+        }
+
+        .bottom-sec {
+            position: relative;
+
+            &:before {
+                height: 100%;
+                width: 100%;
+            }
+        }
+
+    }
+
+    .medical-billing-sec {
+        .servicess-cards {
+            &:after {
+                width: 110%;
+                height: 100%;
+                overflow-x: hidden;
+                left: -28px;
+
+
+            }
+        }
+    }
+
+
+
 }
 
 
